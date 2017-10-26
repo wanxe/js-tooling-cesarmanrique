@@ -1,3 +1,3 @@
 import log from './components/accordion'
 
-log('Hola mundos')
+log('ostias! esto se actualiza solo? :D')

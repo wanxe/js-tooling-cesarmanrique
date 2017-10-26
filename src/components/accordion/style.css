@@ -1,0 +1,38 @@
+.box.accordion-item button.is-block {
+  width: 100%;
+  border: 0;
+  padding: 2rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  outline: none;
+  background-color: #ccc;
+  transition: all .3s ease;
+  border-radius: 0;  
+}
+
+.box.accordion-item:last-child button.is-block, 
+.box.accordion-item:last-child {
+  border-radius: 0 0 8px 8px;
+}
+
+.box {
+  padding: 0;
+  margin: 0 !important;
+  border-radius: 0;
+}
+
+.trigger:hover, 
+.trigger.is-open {
+  background-color: #752875 !important;
+  color: #fff;
+}
+
+.accordion--content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height .3s ease-in-out;
+}
+
+.accordion--content p {
+  padding: 1rem;
+}

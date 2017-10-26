@@ -1,10 +1,4 @@
 import 'bulma/css/bulma.css'
+import accordion from './components/accordion'
 
-class Foo {
-  test (text) {
-    alert(text)
-  }
-}
-
-const Baz = new Foo()
-Baz.test('hola!')
+accordion.init()

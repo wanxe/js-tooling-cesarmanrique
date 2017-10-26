@@ -32,6 +32,11 @@ module.exports = {
           'style-loader', // lo inyecta en nuestro header automáticamente
           'css-loader' // importará los ficheros
         ]
+      },
+      {
+        test: /\.js$/,
+        exclude: /node_modules/, // excluimos node_modules para que no lo transpile
+        loader: 'babel-loader'
       }
     ]
   }

@@ -23,7 +23,18 @@ module.exports = {
       template: './src/index.html'
     }),
     new webpack.HotModuleReplacementPlugin()
-  ]
+  ],
+  module: {
+    rules: [
+      { // esta regla nos permite importar ficheros .css
+        test: /\.css$/,
+        use: [
+          'style-loader', // lo inyecta en nuestro header automáticamente
+          'css-loader' // importará los ficheros
+        ]
+      }
+    ]
+  }
 }
 
 // Si estamos en modo producción (npm run build)

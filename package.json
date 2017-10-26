@@ -1,0 +1,23 @@
+{
+  "name": "webpack-tutorial",
+  "version": "1.0.0",
+  "description": "Pequeño boilerplate para el taller de [Webpack.js](https://webpack.js.org/) y el framework de CSS [Bulma](http://bulma.io/).",
+  "main": "./src/main.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wanxe/js-tooling-cesarmanrique.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wanxe/js-tooling-cesarmanrique/issues"
+  },
+  "homepage": "https://github.com/wanxe/js-tooling-cesarmanrique#readme",
+  "devDependencies": {
+    "webpack": "^3.8.1"
+  }
+}

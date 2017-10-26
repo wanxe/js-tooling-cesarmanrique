@@ -72,7 +72,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_accordion__ = __webpack_require__(1);
 
 
-Object(__WEBPACK_IMPORTED_MODULE_0__components_accordion__["a" /* default */])('Hola mundo')
+Object(__WEBPACK_IMPORTED_MODULE_0__components_accordion__["a" /* default */])('Hola mundos')
 
 
 /***/ }),

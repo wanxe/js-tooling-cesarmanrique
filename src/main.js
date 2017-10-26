@@ -1,4 +1,10 @@
 import 'bulma/css/bulma.css'
-import log from './components/accordion'
 
-log('ostias! esto se actualiza solo? :D')
+class Foo {
+  test (text) {
+    alert(text)
+  }
+}
+
+const Baz = new Foo()
+Baz.test('hola!')

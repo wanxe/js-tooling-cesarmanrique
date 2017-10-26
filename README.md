@@ -9,7 +9,7 @@ Pequeño boilerplate para el taller de [Webpack.js](https://webpack.js.org/) y e
 * Usaremos muchas de las nuevas funcionalidades de ES6
 * Realizaremos una configuración básica de [Webpack.js](https://webpack.js.org/) para gestionar las dependencias de nuestro módulo
 * Haremos hincapié sobre las promesas y callbacks durante el proyecto
-* Y sobre todo, usaremos buenas prácticas para que nuestro código simpre sea lo más mantenible posible
+* Y sobre todo, usaremos buenas prácticas para que nuestro código sea mantenible
 
 ## Material Necesario:
 
